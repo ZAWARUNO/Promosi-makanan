@@ -1,0 +1,223 @@
+.sidekiri {
+    width: 380px;
+    height: 1400px;
+    border: 3px solid #000;
+    background: #FFF;
+    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 767px) {
+    .sidekiri {
+        height: 600px;
+    max-width: 100%;
+}
+}
+
+.makan {
+    width: 450px;
+    height: 150px;
+    max-width: 100%;
+}
+
+@media (max-width: 766px) {
+    .makan {
+    width: 800px;
+}
+}
+
+.nama {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+    color: var(--Black, #000);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: -1.408px;
+}
+
+.salam {
+        width: 265px;
+        max-width: 100%;
+    height: auto;
+    flex-shrink: 0;    
+    color: var(--Black, #000);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 133.333% */
+    letter-spacing: -0.456px;
+}
+
+@media (max-width: 763px) {
+    .salam {
+        width: 700px;
+    max-width: 100%;
+}
+}
+
+
+.promo {
+    width: 270px;
+    height: auto;
+    flex-shrink: 0; 
+    color: var(--Black, #000);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 72px */
+    letter-spacing: -1.056px;
+}
+
+.makanan {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0; 
+    color: var(--Black, #000);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 54px */
+    letter-spacing: -0.684px;
+}
+
+.promo_foto {
+    width: 125px;
+    height: 110px;
+    flex-shrink: 0;
+}
+
+.hot_promo {
+    width: 200px;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.608px;
+    text-decoration-line: line-through;
+}
+
+.hot_promo2 {
+    width: 200px;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.608px;
+}
+
+
+.jelajah {
+    color: var(--Black, #000);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 72px */
+    letter-spacing: -1.056px;
+}
+
+body {
+    margin: 0;
+    overflow: hidden; /* Menghilangkan scroll pada body utama */
+}
+
+@media (max-width: 765px) {
+    body {
+        overflow: scroll;
+    }
+}
+  .scroll-area {
+    height: 100vh; /* Mengatur tinggi area scroll */
+    overflow-y: scroll; /* Mengaktifkan scroll vertikal jika kontennya lebih tinggi dari area */
+    overflow-x: hidden;
+  }
+
+  @media (max-width: 765px) {
+    .scroll-area {
+        height: auto; /* Mengatur tinggi area scroll */
+        overflow-y: hidden; /* Mengaktifkan scroll vertikal jika kontennya lebih tinggi dari area */
+        overflow-x: hidden;
+      }
+    }
+.bg_menu {
+    background-color: #9747ff;
+    color: #FFF;
+    padding: 1px; /* Ruang di sekitar teks */
+    display: inline-block; /* Membuat latar belakang hanya sejauh teksnya */
+    width: 240px;
+}
+
+.card_menu {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Ganti warna background sesuai keinginan */
+  }
+
+  .card_menu img {
+    max-width: 100%;
+    margin-top: 15px;
+  }
+
+  .card-text_menu {
+    margin-top: 15px;
+    background-color: #e0e0e0; /* Ganti warna background sesuai keinginan */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .judul_menu{
+    color: #FFF;
+    background-color: #6939E7;
+    padding: 5px; /* Ruang di sekitar teks */
+    display: inline-block; /* Membuat latar belakang hanya sejauh teksnya */
+    width: 240px;
+    height: 30px;
+  }
+
+  .judul_menu2{
+    color: #FFF;
+    background-color: #9747FF;
+    padding: 5px; /* Ruang di sekitar teks */
+    display: inline-block; /* Membuat latar belakang hanya sejauh teksnya */
+    width: 240px;
+    height: 30px;
+  }
+
+  .judul_menu3{
+    color: #FFF;
+    background-color: #5D94FF;
+    padding: 5px; /* Ruang di sekitar teks */
+    display: inline-block; /* Membuat latar belakang hanya sejauh teksnya */
+    width: 240px;
+    height: 30px;
+  }
+
+.harga {
+    color: #1E1E1E;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 150%; /* 60px */
+    letter-spacing: -0.76px;
+}
+
+.terjual {
+    color: #1E1E1E;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.608px;
+}
+
+.promo_menu {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.608px;
+}
